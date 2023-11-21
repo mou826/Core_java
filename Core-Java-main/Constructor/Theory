@@ -1,0 +1,23 @@
+1)Define Constructor?
+Ans- Constructor is a block of codes similar to the Method. It is called when an instance of the Object is created. Constructor name must be the same as its Class name. A Constructor have no explicit return type. A Constructor cannot be Abstract, Static, Final.
+
+2)How many types of Constructors are in Java?
+Ans- There are two types of constructors. They are default constructor and parameterized constructor.
+
+3)Do we have a copy constructor in Java?
+Ans- Yes, Java has a copy constructor.
+
+4)Can we have a constructor in the Interface?
+Ans- No, we cannot have a constructor in the Interface.
+
+5)Is there any method to call a sub-class constructor from a superclass constructor?
+Ans- No.
+
+6)Why constructors in Java cannot be static?
+Ans- Static members of Class belongs to Class itself instead of the Class Object. So we cannot create Object of static members of the Class. Constructor will be called when we create Object of the Class. As we can only create Object of non static members of the Class  therefore Constructor is also non-static.
+
+7)Why constructor name is similar to the class name?
+Ans- Every class object is created using the same new keyword, so it must have information about the class to which it must create an object. For this reason, the constructor name should be the same as the class name.
+
+8) Can we make a constructor final?Can we make a constructor abstract?
+Ans- No, we cannot make a constructor abstract and static.

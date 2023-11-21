@@ -1,0 +1,41 @@
+Q1) What is a Variable?
+Ans- A Variable is a container which holds the value while the Java program is executed. A Variable is assigned with a datatype.
+
+Q2) How to declare a variable in Java?
+Ans- There are two ways to declare a variable in Java. The first method is to assign the initial value to the variable. For example - Data_type variable_name = value;  The second method declares variable without initial value. For example - Data_type variable_name;
+
+Q3) How to assign a value to a variable?
+Ans- type variableName = value; Where type is one of Java's types (such as int or String ), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
+
+Q4) What is Variable Initialization? How is it different than Assignment?
+Ans- Variable initialization is when a variable is given an initial value when it is created. Assignment is when a variable is given a value after it has been created.
+
+Q5) Can we declare and initialize a variable together?
+Ans- Yes.
+
+Q6) Why is specifying datatype mandatory in Java?
+Ans- In Java, specifying the data type of a variable is mandatory because it tells the compiler how much memory to reserve for that variable, and prevents errors during runtime.
+
+Q7) How many datatypes are there in Java?
+Ans- There are eight datatypes in Java. They are - boolean, byte, char, short, int, long, float, double.
+
+Q8) How can you create constants in Java?
+Ans- Constants can be declared using Java's static and final keywords.
+
+Q9) What are the rules for naming Java Variables?
+Ans- The rules to Declare a Variable are -  A variable name can consist of Capital letters A-Z, lowercase letters a-z digits 0-9, and two special characters such as _ underscore and $ dollar sign. The first character must not be a digit. Blank spaces cannot be used in variable names. Java keywords cannot be used as variable names.
+
+Q10) What are some common naming conventions for Java variables?
+Ans- Some common naming conventions for Java variables are - It should start with a lowercase letter such as id, name. It should not start with the special characters like & (ampersand), $ (dollar), _ (underscore). If the name contains multiple words, start it with the lowercase letter followed by an uppercase letter such as firstName, lastName. Avoid using one-character variables such as x, y, z.
+
+Q11) Where does Java store variable?
+Ans- Instance variables are stored in heap memory whereas local, class and static variables are stored in stack memory.
+
+Q12) What do you understand by an instance variable and a local variable?
+Ans- A Variable declared inside the Class but outside the body of the Method is called Instance or Class Variable. A Variable declared inside the body of the Method is called Local Variable. We can use this Variable only within that Method and the other Methods in the Class are not even aware that the Variable exists.
+
+Q13) Difference between Heap and Stack Memory in Java. And how java utilizes this?
+Ans- Stack memory is used to store local variables and function calls. It has a fixed size and is fast and efficient. It is used to store short-lived data. Heap memory is used to store objects and class instances. It is dynamically allocated at runtime and is slower and less efficient. It is used to store long-lived data and is shared among all threads in a program.
+
+Q14) Why is Java not a pure object oriented language?
+Ans- Java is not considered a pure object-oriented language because it uses primitive data types, which are not objects. It allows for the use of raw types, which are types that are not objects. It allows for the use of casts, which are conversions between different types. It also allows for the use of final variables, which are variables that cannot be changed.

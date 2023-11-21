@@ -1,0 +1,20 @@
+1)What is String in Java?
+Ans- String is a sequence of characters. But in Java, String is an Object that represents a sequence of characters. String is a Class in Java.
+
+2)How to declare a string in Java?
+Ans- There are two ways to declare a string in Java. They are - a)By string lateral. For example - String a=Hello;. b)By new keyword. For example - String a=new String("Hello");
+
+3)Is String a primitive or derived type in Java?
+Ans- String is a derived type in Java.
+
+4)What is String pool in Java?
+Ans- String pool is a storage area in Java heap where string literals stores. It is also known as String Intern Pool or String Constant Pool. It is just like object allocation. By default, it is empty and privately maintained by the Java String class. Whenever we create a string the string object occupies some space in the heap memory.
+
+5)Is String immutable or final in Java? If so, then what are the benefits of Strings being Immutable?
+Ans- String is immutable or final in Java. The benefits of Strings being immutable are - Immutable strings are safe to use in a multi-threaded environment because they cannot be modified once created, Immutable strings are cheap to copy because you don't need to copy all the data - just copy a reference or pointer to the data, Immutable strings are memory efficient as they have fixed memory so we do not have to assign additional memory to them.
+
+6)Difference between String and StringBuffer and StringBuilder.
+Ans- String Buffer Class	                String Builder Class                   String Class
+     It is synchronized.	                It is non-synchronized.                It is not synchronized.
+     It is immutable or thread-safe.	    It is mutable or not thread-safe.      It is immutable or thread safe.
+     It is less efficient.	              It is more efficient.                  It is less efficient.

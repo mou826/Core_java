@@ -1,0 +1,38 @@
+1)What are the differences between Polymorphism and Inheritance in Java?
+Ans- The differences between Polymorphism and Inheritance in Java are - 
+Inheritance                                     Polymorphism
+a) Inheritance is one in which a new            a) Polymorphism is that which can be defined in multiple forms.
+class is created (derived class) that 
+inherits the features from the already 
+existing class(Base class).
+b) It is basically applied to classes.          b) It is basically applied to functions or methods.
+c) Inheritance supports the concept of          c) Polymorphism allows the object to decide which form of 
+reusability and reduces code length in             the function to implement at compile-time (overloading) 
+object-oriented programming.                       as well as run-time (overriding). 
+d) Inheritance can be single, hybrid, multiple, d) Whereas it can be compiled-time polymorphism (overload) 
+hierarchical and multilevel inheritance.           as well as run-time polymorphism (overriding). 
+ 
+2)How is Inheritance useful to achieve Polymorphism in Java?
+Ans Inheritance is useful to achieve polymorphism in Java because it allows you to create a hierarchy of classes, where each class inherits the attributes and methods of its parent class. This means that you can create a base class that defines the common behavior of all of its subclasses, and then create subclasses that override the methods of the base class to provide their own specific implementations.
+
+3)What are different ways to achieve or implement polymorphism in Java?
+Ans- The different ways to achieve or implement polymorphism in Java are Method Overloading and Method Overriding.
+
+4)What are the types of Polymorphism in Java ? Explain each type.
+Ans- The types of Polymorphism in Java are - 
+a)Compile Time Polymorphism- This type of polymorphism is also called static polymorphism. It can be achieved by method overloading. In this process, an overloaded method is resolved at compile time rather than resolving at runtime. 
+b)Run Time Polymorphism- This type of polymorphism is also called dynamic polymorphism. It can be achieved by method overriding. In this process, an overloaded method is resolved at run time rather than resolving at compile time. 
+
+5)What are the differences between compile-time polymorphism and runtime polymorphism in java?
+Ans- Compile Time Polymorphism	                                                Run time Polymorphism
+a)In Compile time Polymorphism, the call is resolved by the compiler.	          a)In Run time Polymorphism, the call is not resolved by the compiler.
+b)It is also known as Static binding, Early binding and overloading as well.	  b)It is also known as Dynamic binding, Late binding and overriding as well.
+c)Method overloading is the compile-time polymorphism where more than one       c)Method overriding is the runtime polymorphism having the same method with 
+methods share the same name with different parameters or signature and           same parameters or signature but associated withcompared, different classes.
+different return type.	
+d)It is achieved by function overloading and operator overloading.	            d)It is achieved by virtual functions and pointers.
+e)It provides fast execution because the method that needs to be executed       e)It provides slow execution as compare to early binding because the method
+is known early at the compile time.	                                              that needs to be executed is known at the runtime.
+f)Compile time polymorphism is less flexible as all things execute              f)Run time polymorphism is more flexible as all things execute at run time.
+at compile time.	
+g)Inheritance is not involved. 	                                                g)Inheritance is involved.
